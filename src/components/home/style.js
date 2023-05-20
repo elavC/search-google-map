@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Wrapper = styled.div `
     display: flex;
 `; 
@@ -24,3 +25,13 @@ export const Search = styled.section `
     padding: 16px 0;
     background-color: ${(props) => props.theme.colors.white};
 `;
+
+export const CarouselTitle = styled.h1 `
+    font-family: ${(props) => props.theme.fonts.regular};
+    color: ${(props) => props.theme.colors.text};
+    font-size: 2rem;
+    font-weigth: bold;
+    width: 100%;
+    text-align: center;
+`;
+
